@@ -1,4 +1,8 @@
-# Dalla [guida ufficiale](https://www.jenkins.io/doc/book/installing/docker/#on-windows)
+# Installazione Jenkins in un container Docker [(dalla guida ufficiale per Windows)](https://www.jenkins.io/doc/book/installing/docker/#on-windows)
+
+## Prerequisites
+
+[Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) installed.
 
 ### 1. Create a bridge network in Docker
 `docker network create jenkins`
